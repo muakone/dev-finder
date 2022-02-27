@@ -1,23 +1,38 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
+import ThemeContext, { Themes } from './component/Theme';
+import SearchDev from './component/SearchDev'
+import Header from './component/Header';
 import './App.css';
+import { ThemeContainer, ThemeContent } from './component/Theme';
 
 function App() {
+  const [theme, setTheme] = useState(Themes.Dark)
+  const [themebg, setThemebg] = useState(ThemeContent.Dark)
+
+  const themeToggler = () => {
+    theme === Themes.Dark
+    ? setTheme(Themes.Light)
+    : setTheme(Themes.Dark)
+  }
+  const themebgToggler = () => {
+    themebg === ThemeContent.Dark
+    ? setThemebg(ThemeContent.Light)
+    : setThemebg(ThemeContent.Dark)
+  }
+  const themeClick = () => {
+    themeToggler()
+    themebgToggler()
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" style={theme}>
+      <ThemeContext.Provider value={theme}>
+        <div className='content-width'>
+          <Header themes={theme} themeToggler={themeClick} />
+          <ThemeContainer.Provider value={themebg}>
+            <SearchDev theme={themebg} themes={theme} className='search-dev' />
+          </ThemeContainer.Provider>
+        </div>
+      </ThemeContext.Provider>
     </div>
   );
 }
