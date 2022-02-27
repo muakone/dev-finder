@@ -211,6 +211,7 @@
   .about-dev-container {
     width: 95%;
     margin: 0 auto;
+    margin-bottom: 40px;
     padding: 30px 2px;
   }
   .avatar {

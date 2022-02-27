@@ -39,7 +39,7 @@ const SearchDev = ({theme, themes}) => {
   const eachDay = [d.getDate()]
   
   useEffect(() => {
-    fetch('https://api.github.com/users/example')
+    fetch('https://api.github.com/users/muakone')
     .then(res => res.json())
     .then(data => {
       console.log(data)
