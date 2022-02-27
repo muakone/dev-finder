@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dev-finder/static/css/main.9d79ee1b.css",
-    "main.js": "/dev-finder/static/js/main.1d5803c7.js",
+    "main.css": "/dev-finder/static/css/main.586afed4.css",
+    "main.js": "/dev-finder/static/js/main.a9c67726.js",
     "static/js/787.d8a369bb.chunk.js": "/dev-finder/static/js/787.d8a369bb.chunk.js",
     "static/media/icon-sun.svg": "/dev-finder/static/media/icon-sun.f28a8996f9959c40bdff14d5a43c08d8.svg",
     "static/media/icon-website.svg": "/dev-finder/static/media/icon-website.b7923f6c1dae9717c079c60d8a5c82e5.svg",
@@ -11,12 +11,12 @@
     "static/media/icon-moon.svg": "/dev-finder/static/media/icon-moon.cce754cec46d095fd3ce12737f38694b.svg",
     "static/media/icon-search.svg": "/dev-finder/static/media/icon-search.0cc0c98424cc75d5e1dfbb9e3abb6785.svg",
     "static/media/icon-location.svg": "/dev-finder/static/media/icon-location.f11c5487a9922cbad40a27e8cc1cfaee.svg",
-    "main.9d79ee1b.css.map": "/dev-finder/static/css/main.9d79ee1b.css.map",
-    "main.1d5803c7.js.map": "/dev-finder/static/js/main.1d5803c7.js.map",
+    "main.586afed4.css.map": "/dev-finder/static/css/main.586afed4.css.map",
+    "main.a9c67726.js.map": "/dev-finder/static/js/main.a9c67726.js.map",
     "787.d8a369bb.chunk.js.map": "/dev-finder/static/js/787.d8a369bb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d79ee1b.css",
-    "static/js/main.1d5803c7.js"
+    "static/css/main.586afed4.css",
+    "static/js/main.a9c67726.js"
   ]
 }
