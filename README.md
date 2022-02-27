@@ -8,11 +8,9 @@ This is a solution to the GitHub user search app challenge on Frontend Mentor. F
 
 ## Features 
 
-* Users should be able to:
+### Users should be able to:
 
 * View the optimal layout for the app depending on their device's screen size.
-
-* Clicking on any of the planets a sidepop comes up .
 
 * See hover states for all interactive elements on the page.
 
@@ -21,6 +19,8 @@ This is a solution to the GitHub user search app challenge on Frontend Mentor. F
 * See relevant user information based on their search.
 
 * Switch between light and dark themes.
+
+* Click on website link and twitter username takes you to their respective sites
 
 
 ### Screenshot

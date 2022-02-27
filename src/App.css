@@ -193,6 +193,10 @@
   text-decoration: none;
   line-height: 20px;
 }
+.link-twitter {
+  text-decoration: none;
+  margin-top: 12px;
+}
 
 @media(max-width: 562px) {
   .App {

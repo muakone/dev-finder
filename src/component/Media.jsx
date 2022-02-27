@@ -31,7 +31,7 @@ const Media = ({theme, location, twitter, url, company}) => {
                         :
                         <div className='media-flex'>
                             <img className='img-media' src={Twitter} alt="" />
-                            <p className=''>{twitter}</p>
+                            <a href={`https://www.twitter.com/${twitter}`} style={theme} className='link-twitter'>{twitter}</a>
                         </div>
                     }
                 </div>  
