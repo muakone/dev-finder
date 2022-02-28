@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/dev-finder/static/css/main.bfdbe354.css",
+    "main.css": "/dev-finder/static/css/main.7424f6f8.css",
     "main.js": "/dev-finder/static/js/main.b3d19ca3.js",
     "static/js/787.d8a369bb.chunk.js": "/dev-finder/static/js/787.d8a369bb.chunk.js",
     "static/media/icon-sun.svg": "/dev-finder/static/media/icon-sun.f28a8996f9959c40bdff14d5a43c08d8.svg",
@@ -11,12 +11,12 @@
     "static/media/icon-moon.svg": "/dev-finder/static/media/icon-moon.cce754cec46d095fd3ce12737f38694b.svg",
     "static/media/icon-search.svg": "/dev-finder/static/media/icon-search.0cc0c98424cc75d5e1dfbb9e3abb6785.svg",
     "static/media/icon-location.svg": "/dev-finder/static/media/icon-location.f11c5487a9922cbad40a27e8cc1cfaee.svg",
-    "main.bfdbe354.css.map": "/dev-finder/static/css/main.bfdbe354.css.map",
+    "main.7424f6f8.css.map": "/dev-finder/static/css/main.7424f6f8.css.map",
     "main.b3d19ca3.js.map": "/dev-finder/static/js/main.b3d19ca3.js.map",
     "787.d8a369bb.chunk.js.map": "/dev-finder/static/js/787.d8a369bb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bfdbe354.css",
+    "static/css/main.7424f6f8.css",
     "static/js/main.b3d19ca3.js"
   ]
 }
