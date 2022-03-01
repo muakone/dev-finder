@@ -24,11 +24,12 @@
   width: 30px;
   height: 30px;
   margin-left: 10px;
-  margin-top: 30px;
+  margin-top: 33px;
 }
 .theme-changer {
   display: flex;
   margin-top: 10px;
+  margin-right: 10px;
 }
 .theme-changer h5 {
   font-size: 20px;
@@ -47,6 +48,7 @@
 .dev-head {
   font-weight: 700;
   font-size: 32px;
+  margin-left: 10px;
 }
 
 /* Search Input */
@@ -91,6 +93,7 @@
 .error {
   flex-wrap: nowrap;
   color: red;
+  line-height: 2px;
 }
 .delete {
   margin-right: 0;
@@ -211,6 +214,9 @@
   }
   #search-text-input {
     width: 45%;
+  }
+  #search-text-input::placeholder {
+    font-size: 16px;
   }
   .about-dev-container {
     width: 95%;
