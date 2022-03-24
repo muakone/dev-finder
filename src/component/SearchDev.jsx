@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Search from '../images/icon-search.svg'
 import AboutDev from './AboutDev'
+import { ThemeContent } from './Theme'
 
 const SearchDev = ({theme, themes}) => {
   const [userName, setUserName] = useState('')
@@ -109,8 +110,12 @@ const SearchDev = ({theme, themes}) => {
             <form action="" style={theme} className='search-dev' onSubmit={handleSubmit} >
               <div className='search-flex'>
                 <img src={Search} alt="search" className='img-search' />
-                <input style={theme} type="text" placeholder='Search Github Username...' id="search-text-input" value={userInput} onChange={handleSearch} onInput={handleShow} /> 
-              </div>
+                {theme === ThemeContent.Dark ? 
+                  <input style={theme} type="text" placeholder='Search Github Username...' id="search-text-input" className='input-white' value={userInput} onChange={handleSearch} onInput={handleShow} /> 
+                  : 
+                  <input style={theme} type="text" placeholder='Search Github Username...' id="search-text-input" className='input-dark' value={userInput} onChange={handleSearch} onInput={handleShow} />  
+                }
+              </div> 
               <p className='error'>{error}</p>
               {show ? <b className='delete' style={theme} onClick={handleDelete}>X</b> : null}
               <button className='btn-search' onClick={handleSubmit}>Search</button>

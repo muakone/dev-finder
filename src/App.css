@@ -59,7 +59,7 @@
   width: 30em;
   display: flex;
   padding: 10px 5px;
-  box-shadow: hsl(228, 71%, 5%) 2px 2px 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin: 0 auto;
   font-weight: 400;
   border-radius: 15px;
@@ -71,10 +71,22 @@
   outline: none;
   border: none;
   font-size: 18px;
+}
+.input-white {
   color: white;
 }
-#search-text-input::placeholder {
-  color: black;
+.input-dark {
+  color: hsl(229, 57%, 11%);
+}
+.input-white::placeholder {
+  color: white;
+  font-size: 20px;
+  letter-spacing: -0.5px;
+  word-spacing: 2px;
+  font-weight: 400;
+}
+.input-dark::placeholder {
+  color: hsl(229, 57%, 11%);
   font-size: 20px;
   letter-spacing: -0.5px;
   word-spacing: 2px;
@@ -125,7 +137,7 @@
   padding: 30px 20px 30px 20px;
   border-radius: 15px;
   text-align: start;
-  box-shadow: hsl(228, 71%, 5%) 3px 3px 12px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   box-sizing: border-box;
   margin-bottom: 2em;
 }
